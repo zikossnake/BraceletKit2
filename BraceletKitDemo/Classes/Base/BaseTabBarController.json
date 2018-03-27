@@ -1,0 +1,26 @@
+[
+    {
+      "vc":"HomeVC",
+      "title":"今日",
+      "icon":"tabbar_today",
+      "icon_sel":"",
+    },
+    {
+      "vc":"HistoryVC",
+      "title":"统计",
+      "icon":"tabbar_history",
+      "icon_sel":"",
+    },
+     {
+     "vc":"DeviceVC",
+     "title":"设备",
+     "icon":"tabbar_band",
+     "icon_sel":"",
+     },
+    {
+      "vc":"MineVC",
+      "title":"我的",
+      "icon":"tabbar_me",
+      "icon_sel":"",
+    }
+]
