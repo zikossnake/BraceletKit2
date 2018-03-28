@@ -386,7 +386,7 @@ static BKSession *session;
 
 - (void)requestUpdateSpecialList:(NSArray <BKRoll *>*)rolls completion:(void (^ _Nullable)(void))completion error:(void (^ _Nullable)(NSError *error))error{
     [self safeRequest:^(BLEAutumn *manager) {
-        [manager.solstice addSpecialList:rolls];
+        [manager.solstice addSpecialList:(NSArray <ZRRoll *>*)rolls];
     } completion:completion error:error];
 }
 
@@ -408,7 +408,7 @@ static BKSession *session;
 
 - (void)requestRemoveSpecialList:(NSArray <BKRoll *>*)rolls completion:(void (^ _Nullable)(void))completion error:(void (^ _Nullable)(NSError *error))error{
     [self safeRequest:^(BLEAutumn *manager) {
-        [manager.solstice removeSpecialList:rolls];
+        [manager.solstice removeSpecialList:(NSArray <ZRRoll *>*)rolls];
     } completion:completion error:error];
 }
 
